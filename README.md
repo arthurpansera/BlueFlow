@@ -41,31 +41,34 @@ A arquitetura do BlueFlow é baseada na integração entre hardware, software em
 
 O desenvolvimento do BlueFlow envolveu a integração de diferentes tecnologias de hardware e software, essenciais para o funcionamento do sistema.
 
-- **Hardware:**  
-  - ESP32 DevKit V1
-  - Sensor de fluxo de água YF-S201
-  - Protoboard
-  - Jumpers
-  - Mangueira de jardim
-  - Adaptadores de mangueira
-  - Cabo micro USB
+- **Hardware:**
+   - ESP32 DevKit V1
+   - Sensor de fluxo de água YF-S201
+   - Protoboard
+   - Jumpers
+   - Mangueira de jardim
+   - Adaptadores de mangueira
+   - Cabo micro USB
+<br>
 
 - **Software e Plataformas:**
-  - Firebase Realtime Database
-  - Wokwi (ambiente de simulação)
+   - Firebase Realtime Database
+   - Wokwi (ambiente de simulação) 
+<br>
 
 - **Linguagens:**
-  - C++
-  - JavaScript
-  - HTML
-  - CSS
+   - C++
+   - JavaScript
+   - HTML
+   - CSS
+<br>
 
 - **Bibliotecas:**
-  - `WiFi.h`
-  - `FirebaseESP32.h`
-  - `Ticker.h`
-  - `Wire.h`
-  - `time.h`
+   - `WiFi.h`
+   - `FirebaseESP32.h`
+   - `Ticker.h`
+   - `Wire.h`
+   - `time.h`
 
 ---
 
