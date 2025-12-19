@@ -23,17 +23,17 @@ O BlueFlow tem como objetivo monitorar o consumo de água em tempo real, oferece
 
 A arquitetura do BlueFlow é baseada na integração entre hardware, software em nuvem e interface web, permitindo o monitoramento contínuo e remoto do consumo de água.
 
-**1. Sensor de Fluxo (YF-S201):**  
-Mede o volume de água por meio da geração de pulsos proporcionais à vazão.
+1. **Sensor de Fluxo (YF-S201):**  
+   Mede o volume de água por meio da geração de pulsos proporcionais à vazão.
 
-**2. Microcontrolador ESP32:**  
-Atua como o núcleo do sistema, sendo responsável por processar os pulsos enviados pelo sensor de fluxo, calcular a vazão e o consumo total de água, identificar padrões anormais de consumo para a detecção de vazamentos e realizar o envio dos dados via conexão Wi-Fi.
+2. **Microcontrolador ESP32:**  
+   Atua como o núcleo do sistema, sendo responsável por processar os pulsos enviados pelo sensor de fluxo, calcular a vazão e o consumo total de água, identificar padrões anormais de consumo para a detecção de vazamentos e realizar o envio dos dados via conexão Wi-Fi.
 
-**3. Firebase Realtime Database:**  
-Armazena os dados de consumo em tempo real, permitindo acesso remoto às informações.
+3. **Firebase Realtime Database:**  
+   Armazena os dados de consumo em tempo real, permitindo acesso remoto às informações.
 
-**4. Interface Web:**  
-Exibe gráficos, métricas, histórico de consumo e alertas de vazamento de forma intuitiva.
+4. **Interface Web:**  
+   Exibe gráficos, métricas, histórico de consumo e alertas de vazamento de forma intuitiva.
 
 ---
 
