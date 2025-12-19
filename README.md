@@ -21,7 +21,7 @@ O BlueFlow tem como objetivo monitorar o consumo de água em tempo real, oferece
 
 ## 🧠 Arquitetura do Sistema
 
-A arquitetura do BlueFlow é baseada na integração entre hardware, software em nuvem e interface web, permitindo o monitoramento contínuo e remoto do consumo de água.
+A arquitetura do BlueFlow é baseada na integração entre hardware, software em nuvem e interface web, permitindo o monitoramento contínuo e remoto do consumo de água. Essa estrutura é composta pelos seguintes elementos principais:
 
 1. **Sensor de Fluxo (YF-S201):**  
    Mede o volume de água por meio da geração de pulsos proporcionais à vazão.
@@ -39,42 +39,20 @@ A arquitetura do BlueFlow é baseada na integração entre hardware, software em
 
 ## 🛠️ Tecnologias Utilizadas
 
-O desenvolvimento do BlueFlow envolveu a integração de diferentes tecnologias de hardware e software, essenciais para o funcionamento do sistema.
+O desenvolvimento do BlueFlow envolveu a integração de diferentes tecnologias de hardware e software, essenciais para o funcionamento do sistema. As tecnologias utilizadas são apresentadas a seguir:
 
-- **Hardware:**
-   - ESP32 DevKit V1
-   - Sensor de fluxo de água YF-S201
-   - Protoboard
-   - Jumpers
-   - Mangueira de jardim
-   - Adaptadores de mangueira
-   - Cabo micro USB
-<br>
-
-- **Software e Plataformas:**
-   - Firebase Realtime Database
-   - Wokwi (ambiente de simulação) 
-<br>
-
-- **Linguagens:**
-   - C++
-   - JavaScript
-   - HTML
-   - CSS
-<br>
-
-- **Bibliotecas:**
-   - `WiFi.h`
-   - `FirebaseESP32.h`
-   - `Ticker.h`
-   - `Wire.h`
-   - `time.h`
+| Categoria | Tecnologias |
+|---------|-------------|
+| **Hardware** | • ESP32 DevKit V1<br>• Sensor de fluxo YF-S201<br>• Protoboard<br>• Jumpers<br>• Mangueira de jardim<br>• Adaptadores de mangueira<br>• Cabo micro USB |
+| **Software e Plataformas** | • Firebase Realtime Database<br>• Wokwi (ambiente de simulação) |
+| **Linguagens** | • C++<br>• JavaScript<br>• HTML<br>• CSS |
+| **Bibliotecas** | • `WiFi.h`<br>• `FirebaseESP32.h`<br>• `Ticker.h`<br>• `Wire.h`<br>• `time.h` |
 
 ---
 
 ## 🧪 Testes Realizados
 
-Os testes foram conduzidos com o objetivo de validar o funcionamento correto do sistema, garantindo a confiabilidade dos dados coletados e a estabilidade da comunicação entre os componentes.
+Com o objetivo de garantir o correto funcionamento do sistema, foram realizados diversos testes ao longo do desenvolvimento do projeto. Esses testes visaram validar a precisão dos dados coletados, a estabilidade da comunicação e o comportamento do sistema em diferentes cenários, incluindo:
 
 - Testes isolados do sensor de fluxo em ambiente de simulação (Wokwi)
 - Validação da lógica de cálculo da vazão e do consumo total
